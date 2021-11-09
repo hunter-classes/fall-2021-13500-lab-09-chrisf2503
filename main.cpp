@@ -1,6 +1,6 @@
 #include <iostream>
-#include "coord3d.h"
 #include "funcs.h"
+#include "coord3d.h"
 
 int main()
 {
