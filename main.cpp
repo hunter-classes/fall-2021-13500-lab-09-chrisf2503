@@ -18,5 +18,13 @@ int main()
   Coord3D *ans = fartherFromOrigin(&point1, &point2);
   std::cout << "Answer:" << ans << "\n";
   std::cout << "---------------------------------\nTask C:\n";
+  //Coord3D vel = {5,-3,1};
+  Coord3D vel = {1, -5, 0.2};
+  Coord3D pos = {0, 0, 100.0};
+  std::cout << "Original points: ";
+  std::cout << pos.x << " " << pos.y << " " << pos.z << "\n";
+  move(&pos, &vel, 2.0);
+  std::cout << "New points: ";
+  std::cout << pos.x << " " << pos.y << " " << pos.z << "\n";
   return 0;
 }
