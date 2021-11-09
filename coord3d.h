@@ -1,4 +1,4 @@
-#pragma ounce
+#pragma once
 
 class Coord3D{
     public:
