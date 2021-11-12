@@ -37,6 +37,6 @@ int main()
   std::cout << "Coordinates after 10 seconds: " << (*ppos).x << " " << (*ppos).y << " " << (*ppos).z << "\n";
   deleteCoord3D(ppos); // release memory
   deleteCoord3D(pvel);
-  std::cout << "---------------------------------\nTask F:\n";
+  //std::cout << "---------------------------------\nTask F:\n";
   return 0;
 }
